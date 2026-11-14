@@ -15,10 +15,14 @@ not been independently re-scored by this public package.
 | V136 | 0.832744 | Improved V108 |
 | V142 | 0.832748 | Best reported result available in these records |
 
-The 2 November V142 snapshot showed rank 12 and third place at 0.834362.
-Those are dated observations, not final standings. The team received a Top 15
-finalist invitation on 6 November. The team subsequently did not attend Phase 2,
-as reported by Faith. No on-site result is claimed.
+The organizer's official advancement announcement on 9 November 2026 listed
+**P3 Labs ninth among the 15 teams advancing from Phase 1 to Phase 2**. The
+announcement said selection followed the Phase 1 results and published criteria,
+with the Phase 1 integrity report also considered. This is the official
+advancement list, rather than a Phase 2 competition result.
+
+The earlier 2 November portal snapshot showed rank 12. It predates the official
+advancement announcement and does not describe the later selection outcome.
 
 ## What the recovery measured
 
