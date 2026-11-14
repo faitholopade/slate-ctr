@@ -1,10 +1,10 @@
 # Slate CTR
 
-A public companion to **P3 Labs' entry in Huawei Ireland Tech Arena 2026**, maintained by Faith Olopade. Our team qualified for the Top 15 on-site final; we did not attend Phase 2.
+A public companion to **P3 Labs' entry in Huawei Ireland Tech Arena 2026**, maintained by Faith Olopade. P3 Labs was listed **9th among the 15 teams advancing to Phase 2** in the organizer's official announcement on 9 November 2026.
 
 The challenge was to predict click-through probability for each item in a ten-candidate slate. An event could produce one click or no click, and each user came with up to 20 recent clicked items. Submissions were ranked by global ROC AUC across all candidate rows. That makes both personalization and the probability of any click important: choosing the best item within each slate is only part of the problem.
 
-The historical solution combined latent preference and exposure representations, history features, calibration heads, and small corrections to event propensity and item choice. The best reported Phase 1 submission was **V142, with ROC AUC 0.832748** on 2 November 2026. This is a recorded portal result, not a score produced by this repository. The last supplied snapshot placed us 12th; it is not a final-rank claim.
+The historical solution combined latent preference and exposure representations, history features, calibration heads, and small corrections to event propensity and item choice. The best reported Phase 1 submission was **V142, with ROC AUC 0.832748** on 2 November 2026. This is a recorded portal result, not a score produced by this repository.
 
 This repository extracts the probability operations into a small NumPy package and supplies an original synthetic training example. The V142 weekend correction standardizes candidate features, centers them within each slate, applies a bounded context-dependent utility adjustment, and reweights candidates while preserving the probability of any click. An event-mass correction performs the complementary operation: it changes click propensity while preserving conditional item choice. The package also includes a linear choice model with an explicit no-click outcome, JSON model serialization, and tests.
 
