@@ -1,0 +1,11 @@
+{
+  "scope": "Synthetic inputs only; no competition records or trained weights",
+  "events": 120,
+  "candidates_per_event": 10,
+  "seed": 14142,
+  "historical_source_sha256": "b099e9b360203100a8a93f8b3d30737d59f0602da7876b1a46045ce9782021d6",
+  "max_absolute_probability_error": 0.0,
+  "max_absolute_delta_error": 0.0,
+  "absolute_tolerance": 1e-14,
+  "passed": true
+}

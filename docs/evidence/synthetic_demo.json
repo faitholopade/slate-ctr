@@ -1,0 +1,10 @@
+{
+  "scope": "Original synthetic demonstration, not competition performance",
+  "training_events": 2500,
+  "evaluation_events": 1000,
+  "uniform_event_log_loss": 2.3978952727983716,
+  "trained_event_log_loss": 1.699594344064692,
+  "trained_global_candidate_auc": 0.8121599857253095,
+  "choice_correction_max_event_mass_error": 4.440892098500626e-16,
+  "event_shift_mean_click_probability_change": 0.019383237262267053
+}

@@ -1,0 +1,11 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "tests_passed": 10,
+  "commands": [
+    "python -m pip install -e .",
+    "python -m unittest discover -s tests -v",
+    "python -m slate_ctr demo"
+  ],
+  "validation_scope": "Local public package; historical training not rerun"
+}

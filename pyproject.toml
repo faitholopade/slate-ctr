@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "p3-labs-slate-ctr"
+version = "0.1.0"
+description = "Slate click modeling and calibration from P3 Labs' Tech Arena Ireland entry"
+requires-python = ">=3.12"
+dependencies = ["numpy>=1.26,<3"]
+license = {text = "MIT"}
+authors = [{name = "Faith Olopade"}]
+
+[project.scripts]
+slate-ctr = "slate_ctr.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["slate_ctr*"]
